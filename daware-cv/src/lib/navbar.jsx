@@ -3,15 +3,17 @@ import "../styles/navbar.css";
 
 function NavBar() {
     return (
-        <div className="navbar">
-            <div className="user-Name">
-                <img src="/logo192.png" alt="logo" />
-            </div>
-            <div className="nav-links">
-                <a href="/">Home</a>
-                <a href="/about">About</a>
-                <a href="/contact">Contact</a>
-            </div>
+        <div className="navbar ">
+            <div className="user-name">P.DAWARE</div>
+            {["Projects", "Technologies", "About me", "Contact"].map((link) => (
+                <NavBarLink key={link} link={link} />
+            ))}
         </div>
     );
 }
+
+function NavBarLink(props) {
+    return <div className="navbar-link">{props.link}</div>;
+}
+
+export default NavBar;
