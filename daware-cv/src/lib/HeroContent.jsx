@@ -4,7 +4,8 @@ import profielImage from "../assets/profile.jpeg";
 function HeroContent() {
     let radius = 500;
     return (
-        <div className="hero-content ">
+     <div className="hero-body">
+         <div className="hero-content ">
             <div className="hero-content-text">
                 <div className="hero-content-title gradient-text">Hello, I'm Pramod,</div>
                 <div className="hero-content-subtitle">Software developer</div>
@@ -26,6 +27,7 @@ function HeroContent() {
                </div>
             </div>
         </div>
+     </div>
     );
 }
 

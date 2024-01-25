@@ -1,5 +1,6 @@
 .hero-content{
   position: relative;
+  margin-bottom: 100px;
 }
 .hero-content-text {
   font-size: 64px;
@@ -8,10 +9,6 @@
   text-align: left;
   padding-top: 166px;
 }
-
-.hero-content-title {}
-
-.hero-content-subtitle {}
 
 .hero-content-description {
   margin-top: 34px;

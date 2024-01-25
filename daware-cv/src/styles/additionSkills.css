@@ -1,0 +1,26 @@
+.skill-item{
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.bullet{
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin: 10px 15px;;
+
+}
+.skills-list{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.skill-title{
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin: 0 10px;
+}
+
+

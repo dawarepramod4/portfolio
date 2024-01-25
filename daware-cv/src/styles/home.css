@@ -6,3 +6,10 @@
   flex: 1;
 
 }
+
+.section-title{
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  
+}
