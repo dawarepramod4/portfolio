@@ -2,7 +2,7 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #0F1624;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -18,4 +18,31 @@
   display: flex;
   flex-direction: row;
   flex: 1;
+}
+
+.active-btn{
+  border: none;
+  padding: 25px 50px;
+  border-radius: 60px;
+  text-align: center ;
+  font-size: 1.2rem;
+}
+
+.gradient-text{
+  background: -webkit-linear-gradient(135deg,#13ADC7,#6978D1 ,#945DD6);
+  background-clip:text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-container{
+  background: linear-gradient(135deg,#13ADC7,#6978D1 ,#945DD6);
+}
+
+.gradient-border{
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background: linear-gradient(135deg,#13ADC7,#6978D1 ,#945DD6);
 }
