@@ -4,7 +4,7 @@ import "../styles/navbar.css";
 function NavBar() {
     return (
         <div className="navbar ">
-            <div className="user-name">P.DAWARE</div>
+            <div className="user-name">DAWARE.DEV</div>
             {["Projects", "Technologies", "About me", "Contact"].map((link) => (
                 <NavBarLink key={link} link={link} />
             ))}
